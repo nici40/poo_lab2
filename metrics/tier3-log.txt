@@ -1,0 +1,73 @@
+[13:56:24] [INFO] Main: Barbossa is ready (memory: 30 messages, server: http://localhost:1234). Type quit to exit.
+you> [13:56:24] [TRACE] Agent: Message added to memory (1 of 30)
+[13:56:24] [TRACE] Agent: Request sent (2 messages)
+[13:56:24] [INFO] Agent: Answer: 147 prompt tokens, 13 completion tokens, 36.8 tokens/s
+[13:56:24] [TRACE] Agent: Message added to memory (2 of 30)
+Barbossa> Nekit. What do you want, matey?
+you> [13:56:24] [TRACE] Agent: Message added to memory (3 of 30)
+[13:56:24] [TRACE] Agent: Request sent (4 messages)
+[13:56:24] [INFO] Agent: Answer: 178 prompt tokens, 19 completion tokens, 54.9 tokens/s
+[13:56:24] [TRACE] Agent: Running tool calculator with input "12 * 7"
+[13:56:24] [TRACE] Agent: Tool calculator returned: 84
+[13:56:24] [TRACE] Agent: Message added to memory (4 of 30)
+[13:56:24] [TRACE] Agent: Message added to memory (5 of 30)
+[13:56:24] [TRACE] Agent: Request sent (6 messages)
+[13:56:25] [INFO] Agent: Answer: 213 prompt tokens, 17 completion tokens, 44.6 tokens/s
+[13:56:25] [TRACE] Agent: Message added to memory (6 of 30)
+Barbossa> 12 times 7 is 84. Pirate math, done right.
+you> [13:56:25] [TRACE] Agent: Message added to memory (7 of 30)
+[13:56:25] [TRACE] Agent: Request sent (8 messages)
+[13:56:25] [INFO] Agent: Answer: 246 prompt tokens, 16 completion tokens, 46.1 tokens/s
+[13:56:25] [TRACE] Agent: Running tool roll_dice with input "6"
+[13:56:25] [TRACE] Agent: Tool roll_dice returned: 6
+[13:56:25] [TRACE] Agent: Message added to memory (8 of 30)
+[13:56:25] [TRACE] Agent: Message added to memory (9 of 30)
+[13:56:25] [TRACE] Agent: Request sent (10 messages)
+[13:56:25] [INFO] Agent: Answer: 278 prompt tokens, 15 completion tokens, 51.7 tokens/s
+[13:56:25] [TRACE] Agent: Message added to memory (10 of 30)
+Barbossa> Got a 6! Lucky roll, matey! ?
+you> [13:56:25] [TRACE] Agent: Message added to memory (11 of 30)
+[13:56:25] [TRACE] Agent: Request sent (12 messages)
+[13:56:25] [INFO] Agent: Answer: 307 prompt tokens, 10 completion tokens, 50.6 tokens/s
+[13:56:25] [TRACE] Agent: Running tool get_time with input ""
+[13:56:25] [TRACE] Agent: Tool get_time returned: 13:56:25
+[13:56:25] [TRACE] Agent: Message added to memory (12 of 30)
+[13:56:25] [TRACE] Agent: Message added to memory (13 of 30)
+[13:56:25] [TRACE] Agent: Request sent (14 messages)
+[13:56:26] [INFO] Agent: Answer: 340 prompt tokens, 28 completion tokens, 44.3 tokens/s
+[13:56:26] [TRACE] Agent: Message added to memory (14 of 30)
+Barbossa> It's 13:56. Time to sail, or maybe just drink some rum. ????
+you> [13:56:26] [TRACE] Agent: Message added to memory (15 of 30)
+[13:56:26] [TRACE] Agent: Request sent (16 messages)
+[13:56:26] [INFO] Agent: Answer: 383 prompt tokens, 10 completion tokens, 48.1 tokens/s
+[13:56:26] [TRACE] Agent: Running tool get_date with input ""
+[13:56:26] [TRACE] Agent: Tool get_date returned: Friday, 20 November 2026
+[13:56:26] [TRACE] Agent: Message added to memory (16 of 30)
+[13:56:26] [TRACE] Agent: Message added to memory (17 of 30)
+[13:56:26] [TRACE] Agent: Request sent (18 messages)
+[13:56:27] [INFO] Agent: Answer: 418 prompt tokens, 33 completion tokens, 48.3 tokens/s
+[13:56:27] [TRACE] Agent: Message added to memory (18 of 30)
+Barbossa> Today is Friday, 20 November 2026. Another day to plunder, plunder, and drink rum! ????
+you> [13:56:27] [TRACE] Agent: Message added to memory (19 of 30)
+[13:56:27] [TRACE] Agent: Request sent (20 messages)
+[13:56:27] [INFO] Agent: Answer: 471 prompt tokens, 21 completion tokens, 46.8 tokens/s
+[13:56:27] [TRACE] Agent: Running tool calculator with input "144 / 12"
+[13:56:27] [TRACE] Agent: Tool calculator returned: 12
+[13:56:27] [TRACE] Agent: Message added to memory (20 of 30)
+[13:56:27] [TRACE] Agent: Message added to memory (21 of 30)
+[13:56:27] [TRACE] Agent: Request sent (22 messages)
+[13:56:28] [INFO] Agent: Answer: 508 prompt tokens, 32 completion tokens, 47.2 tokens/s
+[13:56:28] [TRACE] Agent: Message added to memory (22 of 30)
+Barbossa> 144 divided by 12 is 12. Clean math, just like a good pirate's plan. ????
+you> [13:56:28] [TRACE] Agent: Message added to memory (23 of 30)
+[13:56:28] [TRACE] Agent: Request sent (24 messages)
+[13:56:29] [INFO] Agent: Answer: 555 prompt tokens, 34 completion tokens, 49.6 tokens/s
+[13:56:29] [TRACE] Agent: Message added to memory (24 of 30)
+Barbossa> Why did the pirate go to the doctor?  
+Because he heard he had a case of the "scurvy"! ?????
+you> [13:56:29] [TRACE] Agent: Message added to memory (25 of 30)
+[13:56:29] [TRACE] Agent: Request sent (26 messages)
+[13:56:29] [INFO] Agent: Answer: 603 prompt tokens, 16 completion tokens, 40.6 tokens/s
+[13:56:29] [TRACE] Agent: Message added to memory (26 of 30)
+Barbossa> Your name is Nekit. A bold one, I'd say.
+you> [13:56:29] [INFO] Main: Bye

@@ -1,0 +1,86 @@
+[13:56:16] [INFO] Main: Barbossa is ready (memory: 4 messages, server: http://localhost:1234). Type quit to exit.
+you> [13:56:16] [TRACE] Agent: Message added to memory (1 of 4)
+[13:56:16] [TRACE] Agent: Request sent (2 messages)
+[13:56:17] [INFO] Agent: Answer: 147 prompt tokens, 12 completion tokens, 8.3 tokens/s
+[13:56:17] [TRACE] Agent: Message added to memory (2 of 4)
+Barbossa> Nekit. What's your business, boy?
+you> [13:56:17] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:17] [TRACE] Agent: Request sent (4 messages)
+[13:56:18] [INFO] Agent: Answer: 177 prompt tokens, 19 completion tokens, 57.1 tokens/s
+[13:56:18] [TRACE] Agent: Running tool calculator with input "12 * 7"
+[13:56:18] [TRACE] Agent: Tool calculator returned: 84
+[13:56:18] [TRACE] Agent: Message added to memory (4 of 4)
+[13:56:18] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:18] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:18] [TRACE] Agent: Request sent (4 messages)
+[13:56:18] [INFO] Agent: Answer: 183 prompt tokens, 18 completion tokens, 37.8 tokens/s
+[13:56:18] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> 84. Got that figured out, mate. Now, where's the treasure?
+you> [13:56:18] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:18] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:18] [TRACE] Agent: Request sent (4 messages)
+[13:56:18] [INFO] Agent: Answer: 180 prompt tokens, 14 completion tokens, 49.7 tokens/s
+[13:56:18] [TRACE] Agent: Running tool roll_dice with input "6"
+[13:56:18] [TRACE] Agent: Tool roll_dice returned: 3
+[13:56:18] [TRACE] Agent: Message added to memory (4 of 4)
+[13:56:18] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:18] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:18] [TRACE] Agent: Request sent (4 messages)
+[13:56:19] [INFO] Agent: Answer: 176 prompt tokens, 14 completion tokens, 52.7 tokens/s
+[13:56:19] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> Got a 3. Not bad. Proceed with the plan.
+you> [13:56:19] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:19] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:19] [TRACE] Agent: Request sent (4 messages)
+[13:56:19] [INFO] Agent: Answer: 174 prompt tokens, 14 completion tokens, 39.5 tokens/s
+[13:56:19] [TRACE] Agent: Running tool get_time with input ""
+[13:56:19] [TRACE] Agent: Tool get_time returned: 13:56:19
+[13:56:19] [TRACE] Agent: Message added to memory (4 of 4)
+[13:56:19] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:19] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:19] [TRACE] Agent: Request sent (4 messages)
+[13:56:20] [INFO] Agent: Answer: 181 prompt tokens, 28 completion tokens, 49.6 tokens/s
+[13:56:20] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> T'is 1 o'clock, matey. Time to sail or drink rum. Either way, I'm not having tea.
+you> [13:56:20] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:20] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:20] [TRACE] Agent: Request sent (4 messages)
+[13:56:20] [INFO] Agent: Answer: 196 prompt tokens, 14 completion tokens, 46.3 tokens/s
+[13:56:20] [TRACE] Agent: Running tool get_date with input ""
+[13:56:20] [TRACE] Agent: Tool get_date returned: Friday, 20 November 2026
+[13:56:20] [TRACE] Agent: Message added to memory (4 of 4)
+[13:56:20] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:20] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:20] [TRACE] Agent: Request sent (4 messages)
+[13:56:20] [INFO] Agent: Answer: 184 prompt tokens, 23 completion tokens, 47.9 tokens/s
+[13:56:20] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> Today's date is Friday, 20 November 2026. Sail on, matey!
+you> [13:56:20] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:20] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:20] [TRACE] Agent: Request sent (4 messages)
+[13:56:21] [INFO] Agent: Answer: 198 prompt tokens, 21 completion tokens, 44.9 tokens/s
+[13:56:21] [TRACE] Agent: Running tool calculator with input "144 / 12"
+[13:56:21] [TRACE] Agent: Tool calculator returned: 12
+[13:56:21] [TRACE] Agent: Message added to memory (4 of 4)
+[13:56:21] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:21] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:21] [TRACE] Agent: Request sent (4 messages)
+[13:56:21] [INFO] Agent: Answer: 187 prompt tokens, 12 completion tokens, 49.1 tokens/s
+[13:56:21] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> 12. That's a fair division, mate.
+you> [13:56:21] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:21] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:21] [TRACE] Agent: Request sent (4 messages)
+[13:56:22] [INFO] Agent: Answer: 173 prompt tokens, 29 completion tokens, 47.0 tokens/s
+[13:56:22] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> Why did the pirate bring a ladder to the bar?  
+To get a better view of the drinks! ????
+you> [13:56:22] [TRACE] Agent: Message added to memory (3 of 4)
+[13:56:22] [WARN] Agent: Memory is full, dropped 2 oldest message(s)
+[13:56:22] [TRACE] Agent: Request sent (4 messages)
+[13:56:22] [INFO] Agent: Answer: 188 prompt tokens, 37 completion tokens, 46.2 tokens/s
+[13:56:22] [TRACE] Agent: Message added to memory (4 of 4)
+Barbossa> Name? You don't know? That's a shame.  
+I'll call you "Salty" for now.  
+Salty, eh? Sounds like a good sailor.
+you> [13:56:22] [INFO] Main: Bye
