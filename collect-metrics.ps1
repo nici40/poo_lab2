@@ -8,7 +8,14 @@
 #
 # Run:  powershell -ExecutionPolicy Bypass -File .\collect-metrics.ps1
 
-$model = "qwen/qwen3-4b-2507"
+param(
+    [string]$model = "qwen/qwen3-4b-2507",
+    [string]$personality = "a grumpy pirate who answers in short sentences",
+    [string]$name = "Barbossa",
+    [string]$tag  = ""      # suffix for the output files, e.g. -tag "8b" -> metrics-8b.csv
+)
+
+if ($tag) { $tag = "-$tag" }
 
 Set-Location $PSScriptRoot
 
@@ -83,8 +90,9 @@ $questions = @(
 $rows = @()
 foreach ($tier in 1, 3) {
     Write-Host "Running tier $tier..." -ForegroundColor Cyan
-    $log = $questions | & $java -cp out org.example.AgentMain --model $model --tier $tier --level TRACE 2>&1
-    $log | Set-Content "metrics\tier$tier-log.txt"
+    $log = $questions | & $java -cp out org.example.AgentMain --model $model --tier $tier `
+               --level TRACE --name $name --personality $personality 2>&1
+    $log | Set-Content "metrics\tier$tier$tag-log.txt"
 
     $n = 0
     $msgs = 0
@@ -107,6 +115,7 @@ foreach ($tier in 1, 3) {
 }
 
 $rows | Format-Table -AutoSize
-$rows | Export-Csv metrics\metrics.csv -NoTypeInformation
+$rows | Export-Csv "metrics\metrics$tag.csv" -NoTypeInformation
 Write-Host ""
-Write-Host "Done. metrics\metrics.csv, metrics\tier1-log.txt, metrics\tier3-log.txt" -ForegroundColor Green
+Write-Host "Done. metrics\metrics$tag.csv, metrics\tier1$tag-log.txt, metrics\tier3$tag-log.txt" -ForegroundColor Green
+Write-Host "Model: $model  |  Personality: $personality" -ForegroundColor DarkGray
